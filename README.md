@@ -1,9 +1,26 @@
-# Awesome Claude Code Skills
+<div align="center">
+  <h1>Awesome Claude Code Skills</h1>
+  <p>My curated list of great skills for coding, writing, and learning with Claude Code.<br>Just tell Claude Code these names and it will install them automatically.</p>
 
-> My curated list of great skills for coding, writing, and learning with Claude Code.
-> Just tell Claude Code these names and it will install them automatically.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![Platform](https://img.shields.io/badge/Platform-Claude%20Code-blue)](https://code.claude.com)
+  [![Stars](https://img.shields.io/github/stars/20kiki/awesome-claude-skills)](https://github.com/20kiki/awesome-claude-skills)
 
-**Language:** [English](README.md) | [简体中文](zh-CN/README.md)
+  <p><strong>Language:</strong> <a href="README.md">English</a> | <a href="zh-CN/README.md">简体中文</a></p>
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [Development Workflow](#-development-workflow)
+- [Document Processing](#-document-processing)
+- [Frontend Design](#-frontend-design)
+- [Developer Tools](#-developer-tools)
+- [Discover More](#-discover-more)
+- [Speed Boost](#-speed-boost)
+- [Original](#-original)
+- [Install All at Once](#-install-all-at-once)
 
 ---
 

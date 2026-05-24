@@ -1,9 +1,26 @@
-# Awesome Claude Code Skills
+<div align="center">
+  <h1>Awesome Claude Code Skills</h1>
+  <p>我日常使用 Claude Code 编程、写文档、学习中积累的好用 Skill 清单。<br>直接告诉 Claude Code 这些名字，它就能自动安装。</p>
 
-> 我日常使用 Claude Code 编程、写文档、学习中积累的好用 Skill 清单。
-> 直接告诉 Claude Code 这些名字，它就能自动安装。
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
+  [![Platform](https://img.shields.io/badge/Platform-Claude%20Code-blue)](https://code.claude.com)
+  [![Stars](https://img.shields.io/github/stars/20kiki/awesome-claude-skills)](https://github.com/20kiki/awesome-claude-skills)
 
-**Language:** [English](../README.md) | [简体中文](README.md)
+  <p><strong>Language:</strong> <a href="../README.md">English</a> | <a href="README.md">简体中文</a></p>
+</div>
+
+---
+
+## 📋 目录
+
+- [开发流程](#-开发流程)
+- [文档处理](#-文档处理)
+- [前端设计](#-前端设计)
+- [开发工具](#-开发工具)
+- [发现更多](#-发现更多)
+- [加速工具](#-加速工具)
+- [原创](#-原创)
+- [快速安装全部](#-快速安装全部)
 
 ---
 
