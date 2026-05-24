@@ -17,6 +17,7 @@
 - [Document Processing](#-document-processing)
 - [Frontend Design](#-frontend-design)
 - [Developer Tools](#-developer-tools)
+  - [skill-creator](#skill-creator)
 - [Discover More](#-discover-more)
 - [Speed Boost](#-speed-boost)
 - [Original](#-original)
@@ -87,6 +88,13 @@ Complete guide for building MCP servers. Supports Python (FastMCP) and Node/Type
 Triggers: "build an MCP", "connect API", "add tools to Claude".
 
 - ⭐⭐⭐ · API integration builders
+
+### skill-creator
+Create, modify, and optimize Claude Code skills. Supports the full development cycle: draft → test → review → improve → package.
+
+Triggers: "create a skill", "make a new skill", "write a skill", "improve this skill".
+
+- ⭐⭐⭐⭐ · Skill developers
 
 ---
 
