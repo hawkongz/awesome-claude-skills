@@ -127,4 +127,10 @@ deepseek-eyes：https://github.com/20kiki/deepseek-eyes
 
 ---
 
+## 👤 作者
+
+[@20kiki](https://github.com/20kiki)
+
+---
+
 > 持续更新中 · 最后更新 2026-05-24

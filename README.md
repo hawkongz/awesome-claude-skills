@@ -127,4 +127,10 @@ deepseek-eyes: https://github.com/20kiki/deepseek-eyes
 
 ---
 
+## 👤 Author
+
+[@20kiki](https://github.com/20kiki)
+
+---
+
 > Updated 2026-05-24
