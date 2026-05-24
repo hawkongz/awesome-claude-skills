@@ -63,8 +63,6 @@ PDF 全功能：读取、合并、拆分、旋转、水印、OCR 识别、表单
 触发条件：提到"设计网页"、"做个页面"、"前端组件"、"美化 UI" 等。
 
 - ⭐⭐⭐⭐⭐ · 前端开发者
-- ⚠️ 官方自带，无需手动安装
-
 ### ui-ux-pro-max
 UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南，覆盖 React/Next.js/Vue/SwiftUI/Flutter/Tailwind 等。
 
@@ -133,10 +131,10 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 
 ```
 请帮我安装以下 skill：
-Superpowers、docx、pdf、pptx、xlsx、skill-creator、
+Superpowers、docx、pdf、pptx、xlsx、skill-creator、frontend-design、
 ui-ux-pro-max、webapp-testing、mcp-builder、
 find-skills
-（frontend-design 官方自带，无需装）
+（安装以上全部官方 skill 即可）
 
 CodeGraph：https://github.com/colbymchenry/codegraph
 deepseek-eyes：https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
