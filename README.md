@@ -122,7 +122,7 @@ find-skills
 (frontend-design and skill-creator come pre-installed)
 
 CodeGraph: https://github.com/colbymchenry/codegraph
-deepseek-eyes: https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
+deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
 ```
 
 ---
