@@ -122,7 +122,7 @@ find-skills
 （frontend-design 和 skill-creator 官方自带，无需装）
 
 CodeGraph：https://github.com/colbymchenry/codegraph
-deepseek-eyes：https://github.com/20kiki/deepseek-eyes
+deepseek-eyes：https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
 ```
 
 ---
