@@ -16,11 +16,10 @@
 - [Development Workflow](#-development-workflow)
 - [Document Processing](#-document-processing)
 - [Frontend Design](#-frontend-design)
-- [Developer Tools](#-developer-tools)
-  - [skill-creator](#skill-creator)
-- [Discover More](#-discover-more)
-- [Speed Boost](#-speed-boost)
-- [Original](#-original)
+- [Testing](#-testing)
+- [Integration & Extensions](#-integration--extensions)
+- [Productivity Tools](#-productivity-tools)
+- [Learning Aid](#-learning-aid)
 - [Install All at Once](#-install-all-at-once)
 
 ---
@@ -64,6 +63,7 @@ Production-grade frontend interfaces with high design quality. Avoids generic "A
 Triggers: "design a webpage", "build a page", "frontend component", "beautify UI".
 
 - ⭐⭐⭐⭐⭐ · Frontend developers
+
 ### ui-ux-pro-max
 UI/UX design intelligence. 50+ styles, 161 color palettes, 57 font pairings, 99 UX guidelines across React/Next.js/Vue/SwiftUI/Flutter/Tailwind and more.
 
@@ -73,7 +73,7 @@ Triggers: "UI design", "UX improvement", "color palette", "font pairing", "compo
 
 ---
 
-## 🛠 Developer Tools
+## 🧪 Testing
 
 ### webapp-testing
 Automated browser testing with Playwright. Screenshots, UI debugging, browser log inspection.
@@ -81,6 +81,10 @@ Automated browser testing with Playwright. Screenshots, UI debugging, browser lo
 Triggers: "test the page", "screenshot", "browser debug", "e2e test".
 
 - ⭐⭐⭐⭐ · Web developers
+
+---
+
+## 🔌 Integration & Extensions
 
 ### mcp-builder
 Complete guide for building MCP servers. Supports Python (FastMCP) and Node/TypeScript.
@@ -96,10 +100,6 @@ Triggers: "create a skill", "make a new skill", "write a skill", "improve this s
 
 - ⭐⭐⭐⭐ · Skill developers
 
----
-
-## 🔍 Discover More
-
 ### find-skills
 Search and discover new skills. Use when you want a capability but unsure if a skill exists.
 
@@ -109,7 +109,7 @@ Triggers: "is there a skill for X", "how to install X", "find a skill".
 
 ---
 
-## ⚡ Speed Boost
+## ⚡ Productivity Tools
 
 ### CodeGraph
 Semantic code maps for Claude Code. Provides global code awareness, reducing tool calls by ~70% and costs by ~35%. Runs 100% locally.
@@ -118,10 +118,6 @@ After install, run `codegraph init -i` in your project directory.
 
 - ⭐⭐⭐⭐⭐ · Large project developers
 - [github.com/colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)
-
----
-
-## 🌟 Original
 
 ### deepseek-eyes
 Enables non-vision models (like DeepSeek) to understand images. Routes images through Alibaba Cloud's Qwen vision models, returning Chinese descriptions.
@@ -133,16 +129,26 @@ Triggers: sharing images, "analyze this picture", "what's in this image".
 
 ---
 
+## 📚 Learning Aid
+
+### codebase-to-course
+Turn any codebase into a beautiful, interactive single-page HTML course. Teaches how the code works with scroll-based navigation, animated visualizations, embedded quizzes, and code-with-plain-English translations.
+
+Triggers: "turn this into a course", "explain this codebase", "teach this code", "interactive tutorial from code".
+
+- ⭐⭐⭐⭐ · Educators and codebase authors
+
+---
+
 ## 📦 Install All at Once
 
 Paste this in Claude Code:
 
 ```
 Please install these skills:
-Superpowers, docx, pdf, pptx, xlsx, skill-creator, frontend-design,
+Superpowers, docx, pdf, pptx, xlsx, frontend-design,
 ui-ux-pro-max, webapp-testing, mcp-builder,
-find-skills
-(install all official skills above)
+skill-creator, find-skills, codebase-to-course
 
 CodeGraph: https://github.com/colbymchenry/codegraph
 deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
@@ -156,4 +162,4 @@ deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your mode
 
 ---
 
-> Updated 2026-05-24
+> Updated 2026-05-25
