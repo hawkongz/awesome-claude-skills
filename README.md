@@ -63,7 +63,7 @@ Production-grade frontend interfaces with high design quality. Avoids generic "A
 Triggers: "design a webpage", "build a page", "frontend component", "beautify UI".
 
 - ⭐⭐⭐⭐⭐ · Frontend developers
-- ⚠️ Pre-installed with Claude Code. Also includes `skill-creator`.
+- ⚠️ Pre-installed with Claude Code.
 
 ### ui-ux-pro-max
 UI/UX design intelligence. 50+ styles, 161 color palettes, 57 font pairings, 99 UX guidelines across React/Next.js/Vue/SwiftUI/Flutter/Tailwind and more.
@@ -133,10 +133,10 @@ Paste this in Claude Code:
 
 ```
 Please install these skills:
-Superpowers, docx, pdf, pptx, xlsx,
+Superpowers, docx, pdf, pptx, xlsx, skill-creator,
 ui-ux-pro-max, webapp-testing, mcp-builder,
 find-skills
-(frontend-design and skill-creator come pre-installed)
+(frontend-design comes pre-installed)
 
 CodeGraph: https://github.com/colbymchenry/codegraph
 deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
