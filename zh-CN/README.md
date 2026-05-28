@@ -45,6 +45,14 @@
 PDF 全功能：读取、合并、拆分、旋转、水印、OCR 识别、表单填写。
 - ⭐⭐⭐⭐⭐ · 处理 PDF 资料的人
 
+### mineru-pdf
+高精度 PDF 内容解析。提取公式（可编译 LaTeX）、图片（含 bbox 坐标 + 图注）、表格，正确处理双栏排版和扫描件。与官方 pdf skill 互补。
+
+触发条件：`/mineru-pdf`，提到 "MinerU"、"解析这篇论文"、"提取 PDF 的公式" 等。
+
+- ⭐⭐⭐⭐⭐ · 学术科研人员、处理公式密集或扫描件 PDF 的人
+- [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
+
 ### pptx
 创建和编辑 PPT 演示文稿。支持模板、布局、演讲者备注、合并拆分。
 - ⭐⭐⭐⭐ · 做汇报/分享的人
@@ -152,6 +160,7 @@ skill-creator、find-skills、codebase-to-course
 
 CodeGraph：https://github.com/colbymchenry/codegraph
 deepseek-eyes：https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
+mineru-pdf：https://github.com/20kiki/mineru-pdf（复杂 PDF 高精度解析）
 ```
 
 ---

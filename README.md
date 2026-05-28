@@ -45,6 +45,14 @@ Create, read, and edit Word documents. Supports table of contents, headers, foot
 Full PDF toolkit: read, merge, split, rotate, watermark, OCR, form filling.
 - ⭐⭐⭐⭐⭐ · Anyone working with PDFs
 
+### mineru-pdf
+High-accuracy PDF content extraction for complex documents. Extracts formulas (compilable LaTeX), images (with bbox + captions), tables, and handles multi-column layouts and scanned PDFs. Complements the official pdf skill.
+
+Triggers: `/mineru-pdf`, "MinerU", "parse this paper", "extract formulas from PDF".
+
+- ⭐⭐⭐⭐⭐ · Academic researchers, anyone dealing with formula-heavy or scanned PDFs
+- [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
+
 ### pptx
 Create and edit PowerPoint presentations. Supports templates, layouts, speaker notes, merge/split.
 - ⭐⭐⭐⭐ · Presenters and knowledge sharers
@@ -152,6 +160,7 @@ skill-creator, find-skills, codebase-to-course
 
 CodeGraph: https://github.com/colbymchenry/codegraph
 deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
+mineru-pdf: https://github.com/20kiki/mineru-pdf (high-accuracy PDF extraction for complex documents)
 ```
 
 ---
