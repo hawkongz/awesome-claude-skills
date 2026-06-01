@@ -54,8 +54,26 @@ PDF 全功能：读取、合并、拆分、旋转、水印、OCR 识别、表单
 - [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
 
 ### pptx
-创建和编辑 PPT 演示文稿。支持模板、布局、演讲者备注、合并拆分。
+创建和编辑 PPT 演示文稿——读取内容、修改样式、替换图片、合并拆分、基于模板创建。适合"改已有 PPT"的场景。是一个灵活通用的 PPTX 工具箱。
 - ⭐⭐⭐⭐ · 做汇报/分享的人
+
+### ppt-master
+AI 驱动的高质量 PPT 生成。支持 PDF/Word/Markdown/网页等多种格式输入，三角色协作（策略师 → 图片师 → 执行师），SVG→DrawingML 管线生成原生可编辑 PPTX，内置 20+ 专业模板。适合"从素材从零生成精美幻灯片"的场景。
+
+触发条件："生成PPT"、"做PPT"、"create presentation"、"make slides"。
+
+- ⭐⭐⭐⭐⭐ · 追求专业设计质量的 PPT 制作者
+- [github.com/hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
+
+> **pptx vs ppt-master**：`pptx` 是通用 PPTX 工具箱——读取、编辑、合并、改模板，适合"修改已有 PPT"。`ppt-master` 专注于**从任意文档从零生成专业演示文稿**，设计质量和风格一致性更好，适合"给我素材、帮我做出彩的 PPT"。改/修已有 PPT 用 `pptx`，从素材生成精美幻灯片用 `ppt-master`。
+>
+> **⚠️ 触发冲突**：两者都对"做PPT""生成PPT"等词触发。建议在 settings.json 中把不常用的那个设为手动调用，避免每次都要选：
+> ```json
+> "skillOverrides": {
+>   "pptx": "user-invocable-only"
+> }
+> ```
+> 这样日常说"做PPT"→ 自动走 `ppt-master`，需要编辑已有文件时用 `/pptx` 显式调用官方 pptx skill。
 
 ### xlsx
 表格处理：创建、编辑、公式计算、图表、数据清洗、格式转换。
@@ -146,6 +164,14 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 
 - ⭐⭐⭐⭐ · 教学和代码库作者
 
+### understand-anything
+将任意代码库或知识库转换为交互式知识图谱。可视化文件/函数/类依赖关系，自然语言问答，Diff 影响分析，架构分层展示。5 个 Agent 流水线，结合静态分析（tree-sitter）和 LLM 语义理解。
+
+触发条件：`/understand`、"知识图谱"、"看懂这个项目"、"架构概览"、`/understand-knowledge`（分析 Markdown 知识库）。
+
+- ⭐⭐⭐⭐⭐ · 接手新项目的开发者
+- [github.com/Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
+
 ---
 
 ## 📦 快速安装全部
@@ -156,11 +182,12 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 请帮我安装以下 skill：
 Superpowers、docx、pdf、pptx、xlsx、frontend-design、
 ui-ux-pro-max、webapp-testing、mcp-builder、
-skill-creator、find-skills、codebase-to-course
+skill-creator、find-skills、codebase-to-course、understand-anything
 
 CodeGraph：https://github.com/colbymchenry/codegraph
 deepseek-eyes：https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
 mineru-pdf：https://github.com/20kiki/mineru-pdf（复杂 PDF 高精度解析）
+ppt-master：https://github.com/hugohe3/ppt-master（AI 驱动高质量 PPT 生成，支持多种文档输入）
 ```
 
 ---
@@ -171,4 +198,4 @@ mineru-pdf：https://github.com/20kiki/mineru-pdf（复杂 PDF 高精度解析�
 
 ---
 
-> 持续更新中 · 最后更新 2026-05-25
+> 持续更新中 · 最后更新 2026-06-02

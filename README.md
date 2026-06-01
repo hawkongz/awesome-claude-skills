@@ -54,8 +54,26 @@ Triggers: `/mineru-pdf`, "MinerU", "parse this paper", "extract formulas from PD
 - [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
 
 ### pptx
-Create and edit PowerPoint presentations. Supports templates, layouts, speaker notes, merge/split.
+Create and edit PowerPoint presentations — read content, modify styles, replace images, merge/split, template-based creation. A general-purpose PPTX toolbox best suited for editing existing files.
 - ⭐⭐⭐⭐ · Presenters and knowledge sharers
+
+### ppt-master
+AI-driven PPT generation from any source document (PDF/DOCX/Markdown/URL). Uses multi-role collaboration (Strategist → Image Generator → Executor) and SVG→DrawingML pipeline to produce natively editable PPTX with 20+ professional templates. Best for creating polished decks from raw materials.
+
+Triggers: "create PPT", "make presentation", "generate slides", "生成PPT", "做PPT".
+
+- ⭐⭐⭐⭐⭐ · PPT creators who want professional design quality
+- [github.com/hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
+
+> **pptx vs ppt-master**: `pptx` is a general-purpose PPTX toolbox — read, edit, merge, template tweaks. `ppt-master` specializes in **generating professional decks from scratch** from source documents, with higher design quality and style consistency. Use `pptx` when editing existing files; use `ppt-master` when creating a polished presentation from raw materials.
+>
+> **⚠️ Trigger conflict**: Both skills respond to "create PPT", "make presentation", etc. To avoid choosing every time, set the less-frequently-used one to manual-only in settings.json:
+> ```json
+> "skillOverrides": {
+>   "pptx": "user-invocable-only"
+> }
+> ```
+> This way "make a PPT" → auto-routes to `ppt-master`; when you need to edit an existing file, explicitly invoke via `/pptx`.
 
 ### xlsx
 Spreadsheet processing: create, edit, formulas, charts, data cleaning, format conversion.
@@ -146,6 +164,14 @@ Triggers: "turn this into a course", "explain this codebase", "teach this code",
 
 - ⭐⭐⭐⭐ · Educators and codebase authors
 
+### understand-anything
+Turn any codebase or knowledge base into an interactive knowledge graph. Visual file/function/class dependency explorer, natural language Q&A, diff impact analysis, and architecture layer visualization. 5-agent pipeline combining static analysis (tree-sitter) with LLM semantic understanding.
+
+Triggers: `/understand`, "knowledge graph", "understand this codebase", "architecture overview", `/understand-knowledge` for markdown wikis.
+
+- ⭐⭐⭐⭐⭐ · Developers onboarding to new projects
+- [github.com/Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
+
 ---
 
 ## 📦 Install All at Once
@@ -156,11 +182,12 @@ Paste this in Claude Code:
 Please install these skills:
 Superpowers, docx, pdf, pptx, xlsx, frontend-design,
 ui-ux-pro-max, webapp-testing, mcp-builder,
-skill-creator, find-skills, codebase-to-course
+skill-creator, find-skills, codebase-to-course, understand-anything
 
 CodeGraph: https://github.com/colbymchenry/codegraph
 deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
 mineru-pdf: https://github.com/20kiki/mineru-pdf (high-accuracy PDF extraction for complex documents)
+ppt-master: https://github.com/hugohe3/ppt-master (AI-driven PPT generation from any source document)
 ```
 
 ---
@@ -171,4 +198,4 @@ mineru-pdf: https://github.com/20kiki/mineru-pdf (high-accuracy PDF extraction f
 
 ---
 
-> Updated 2026-05-25
+> Updated 2026-06-02
