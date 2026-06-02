@@ -4,7 +4,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![Platform](https://img.shields.io/badge/Platform-Claude%20Code-blue)](https://code.claude.com)
-  [![Stars](https://img.shields.io/github/stars/20kiki/awesome-claude-skills)](https://github.com/20kiki/awesome-claude-skills)
+  [![Stars](https://img.shields.io/github/stars/hawkongz/awesome-claude-skills)](https://github.com/hawkongz/awesome-claude-skills)
 
   <p><strong>Language:</strong> <a href="README.md">English</a> | <a href="zh-CN/README.md">简体中文</a></p>
 </div>
@@ -51,7 +51,7 @@ High-accuracy PDF content extraction for complex documents. Extracts formulas (c
 Triggers: `/mineru-pdf`, "MinerU", "parse this paper", "extract formulas from PDF".
 
 - ⭐⭐⭐⭐⭐ · Academic researchers, anyone dealing with formula-heavy or scanned PDFs
-- [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
+- [github.com/hawkongz/mineru-pdf](https://github.com/hawkongz/mineru-pdf)
 
 ### pptx
 Create and edit PowerPoint presentations — read content, modify styles, replace images, merge/split, template-based creation. A general-purpose PPTX toolbox best suited for editing existing files.
@@ -151,7 +151,7 @@ Enables non-vision models (like DeepSeek) to understand images. Routes images th
 Triggers: sharing images, "analyze this picture", "what's in this image".
 
 - ⭐⭐⭐⭐ · DeepSeek and non-multimodal model users
-- [github.com/20kiki/deepseek-eyes](https://github.com/20kiki/deepseek-eyes)
+- [github.com/hawkongz/deepseek-eyes](https://github.com/hawkongz/deepseek-eyes)
 
 ---
 
@@ -185,8 +185,8 @@ ui-ux-pro-max, webapp-testing, mcp-builder,
 skill-creator, find-skills, codebase-to-course, understand-anything
 
 CodeGraph: https://github.com/colbymchenry/codegraph
-deepseek-eyes: https://github.com/20kiki/deepseek-eyes (only needed if your model lacks vision)
-mineru-pdf: https://github.com/20kiki/mineru-pdf (high-accuracy PDF extraction for complex documents)
+deepseek-eyes: https://github.com/hawkongz/deepseek-eyes (only needed if your model lacks vision)
+mineru-pdf: https://github.com/hawkongz/mineru-pdf (high-accuracy PDF extraction for complex documents)
 ppt-master: https://github.com/hugohe3/ppt-master (AI-driven PPT generation from any source document)
 ```
 
@@ -194,7 +194,7 @@ ppt-master: https://github.com/hugohe3/ppt-master (AI-driven PPT generation from
 
 ## 👤 Author
 
-[@20kiki](https://github.com/20kiki)
+[@hawkongz](https://github.com/hawkongz)
 
 ---
 

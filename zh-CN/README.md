@@ -4,7 +4,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
   [![Platform](https://img.shields.io/badge/Platform-Claude%20Code-blue)](https://code.claude.com)
-  [![Stars](https://img.shields.io/github/stars/20kiki/awesome-claude-skills)](https://github.com/20kiki/awesome-claude-skills)
+  [![Stars](https://img.shields.io/github/stars/hawkongz/awesome-claude-skills)](https://github.com/hawkongz/awesome-claude-skills)
 
   <p><strong>Language:</strong> <a href="../README.md">English</a> | <a href="README.md">简体中文</a></p>
 </div>
@@ -51,7 +51,7 @@ PDF 全功能：读取、合并、拆分、旋转、水印、OCR 识别、表单
 触发条件：`/mineru-pdf`，提到 "MinerU"、"解析这篇论文"、"提取 PDF 的公式" 等。
 
 - ⭐⭐⭐⭐⭐ · 学术科研人员、处理公式密集或扫描件 PDF 的人
-- [github.com/20kiki/mineru-pdf](https://github.com/20kiki/mineru-pdf)
+- [github.com/hawkongz/mineru-pdf](https://github.com/hawkongz/mineru-pdf)
 
 ### pptx
 创建和编辑 PPT 演示文稿——读取内容、修改样式、替换图片、合并拆分、基于模板创建。适合"改已有 PPT"的场景。是一个灵活通用的 PPTX 工具箱。
@@ -151,7 +151,7 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 触发条件：发送图片、提到"分析这张图"、"图片里有什么" 等。
 
 - ⭐⭐⭐⭐ · 用 DeepSeek 等非多模态模型的人
-- [github.com/20kiki/deepseek-eyes](https://github.com/20kiki/deepseek-eyes)
+- [github.com/hawkongz/deepseek-eyes](https://github.com/hawkongz/deepseek-eyes)
 
 ---
 
@@ -185,8 +185,8 @@ ui-ux-pro-max、webapp-testing、mcp-builder、
 skill-creator、find-skills、codebase-to-course、understand-anything
 
 CodeGraph：https://github.com/colbymchenry/codegraph
-deepseek-eyes：https://github.com/20kiki/deepseek-eyes（模型无识图功能才需要）
-mineru-pdf：https://github.com/20kiki/mineru-pdf（复杂 PDF 高精度解析）
+deepseek-eyes：https://github.com/hawkongz/deepseek-eyes（模型无识图功能才需要）
+mineru-pdf：https://github.com/hawkongz/mineru-pdf（复杂 PDF 高精度解析）
 ppt-master：https://github.com/hugohe3/ppt-master（AI 驱动高质量 PPT 生成，支持多种文档输入）
 ```
 
@@ -194,7 +194,7 @@ ppt-master：https://github.com/hugohe3/ppt-master（AI 驱动高质量 PPT 生�
 
 ## 👤 作者
 
-[@20kiki](https://github.com/20kiki)
+[@hawkongz](https://github.com/hawkongz)
 
 ---
 
