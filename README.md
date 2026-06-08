@@ -133,6 +133,14 @@ Triggers: "is there a skill for X", "how to install X", "find a skill".
 
 - ⭐⭐⭐⭐⭐ · Everyone
 
+### x-twitter-scraper
+Use Xquik for X/Twitter data workflows in Claude Code: tweet search, user lookup, follower checks, media downloads, MCP tools, and webhooks.
+
+Triggers: "search tweets", "look up an X user", "download tweet media", "set up Xquik MCP".
+
+- ⭐⭐⭐⭐ · Builders working with X/Twitter data
+- [github.com/Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)
+
 ---
 
 ## ⚡ Productivity Tools
