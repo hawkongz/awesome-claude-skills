@@ -133,6 +133,14 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 
 - ⭐⭐⭐⭐⭐ · 所有人
 
+### x-twitter-scraper
+在 Claude Code 中使用 Xquik 处理 X/Twitter 数据工作流：推文搜索、用户查询、关注关系检查、媒体下载、MCP 工具和 Webhook。
+
+触发条件：提到"搜索推文"、"查询 X 用户"、"下载推文媒体"、"配置 Xquik MCP" 等。
+
+- ⭐⭐⭐⭐ · 需要处理 X/Twitter 数据的开发者
+- [github.com/Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)
+
 ---
 
 ## ⚡ 效率工具
