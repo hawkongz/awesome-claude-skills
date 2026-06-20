@@ -33,6 +33,14 @@
 
 - ⭐⭐⭐⭐⭐ · 所有人
 
+### ax-extract-workflow
+从本地 ax 会话、提交记录、skill 使用和 sub-agent 活动中，还原 PR、功能、报告或其他交付物的产出过程。
+
+触发条件："what made X work"、"how did we ship Y"、"extract workflow from <date|sha>"。
+
+- ⭐⭐⭐⭐ · 想把过往 agent 工作复盘成可复用流程的开发者
+- [github.com/Necmttn/ax](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow)
+
 ---
 
 ## 📄 文档处理
@@ -188,6 +196,7 @@ CodeGraph：https://github.com/colbymchenry/codegraph
 deepseek-eyes：https://github.com/hawkongz/deepseek-eyes（模型无识图功能才需要）
 mineru-pdf：https://github.com/hawkongz/mineru-pdf（复杂 PDF 高精度解析）
 ppt-master：https://github.com/hugohe3/ppt-master（AI 驱动高质量 PPT 生成，支持多种文档输入）
+ax-extract-workflow：https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow（从本地 ax 历史还原交付工作流）
 ```
 
 ---

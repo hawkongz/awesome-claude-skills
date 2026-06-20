@@ -33,6 +33,14 @@ Triggers: writing code, fixing bugs, building features, opening PRs.
 
 - ⭐⭐⭐⭐⭐ · Everyone
 
+### ax-extract-workflow
+Reconstruct how a PR, feature, report, or shipped artifact was produced from local ax sessions, commits, skill usage, and subagent activity.
+
+Triggers: "what made X work", "how did we ship Y", "extract workflow from <date|sha>".
+
+- ⭐⭐⭐⭐ · Developers who want to turn past agent work into repeatable workflows
+- [github.com/Necmttn/ax](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow)
+
 ---
 
 ## 📄 Document Processing
@@ -188,6 +196,7 @@ CodeGraph: https://github.com/colbymchenry/codegraph
 deepseek-eyes: https://github.com/hawkongz/deepseek-eyes (only needed if your model lacks vision)
 mineru-pdf: https://github.com/hawkongz/mineru-pdf (high-accuracy PDF extraction for complex documents)
 ppt-master: https://github.com/hugohe3/ppt-master (AI-driven PPT generation from any source document)
+ax-extract-workflow: https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow (reconstruct past delivery workflows from local ax history)
 ```
 
 ---
