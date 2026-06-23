@@ -133,6 +133,14 @@ Triggers: "is there a skill for X", "how to install X", "find a skill".
 
 - ⭐⭐⭐⭐⭐ · Everyone
 
+### runapi-cli
+Run AI image, video, music/audio, speech, and LLM model API jobs through the RunAPI CLI from Claude Code, Codex, and similar agents.
+
+Triggers: "generate an image with RunAPI", "create AI video", "make music", "run a model API job".
+
+- ⭐⭐⭐⭐ · Builders using model APIs in agent workflows
+- [github.com/runapi-ai/cli-skill](https://github.com/runapi-ai/cli-skill)
+
 ---
 
 ## ⚡ Productivity Tools
