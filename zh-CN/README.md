@@ -133,6 +133,14 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 
 - ⭐⭐⭐⭐⭐ · 所有人
 
+### runapi-cli
+通过 RunAPI CLI 在 Claude Code、Codex 等智能体工作流里调用图片、视频、音乐 / 音频、语音和 LLM 等模型 API 任务。
+
+触发条件：提到"用 RunAPI 生成图片"、"创建 AI 视频"、"生成音乐"、"跑一个模型 API 任务"等。
+
+- ⭐⭐⭐⭐ · 需要在 agent 工作流里使用模型 API 的开发者
+- [github.com/runapi-ai/cli-skill](https://github.com/runapi-ai/cli-skill)
+
 ---
 
 ## ⚡ 效率工具
