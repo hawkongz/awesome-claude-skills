@@ -153,6 +153,13 @@ UI/UX 设计智囊。50+ 风格、161 调色板、57 字体搭配、99 UX 指南
 - ⭐⭐⭐⭐ · 用 DeepSeek 等非多模态模型的人
 - [github.com/hawkongz/deepseek-eyes](https://github.com/hawkongz/deepseek-eyes)
 
+### OrkasVideoStudio
+MIT 许可、本地优先的 TypeScript CLI 与 MCP 工具包，让编码 Agent 基于可编辑的 plan.json 时间线合成、剪辑、生成并组装视频。
+
+从源码安装后，运行 `node packages/cli/dist/index.js skills --install --target claude`。
+
+- [github.com/Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)
+
 ---
 
 ## 📚 学习辅助

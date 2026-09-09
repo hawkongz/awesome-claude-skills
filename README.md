@@ -153,6 +153,13 @@ Triggers: sharing images, "analyze this picture", "what's in this image".
 - ⭐⭐⭐⭐ · DeepSeek and non-multimodal model users
 - [github.com/hawkongz/deepseek-eyes](https://github.com/hawkongz/deepseek-eyes)
 
+### OrkasVideoStudio
+MIT-licensed, local-first TypeScript CLI and MCP toolkit for composing, editing, generating, and assembling videos from editable plan.json timelines.
+
+Install from source, then run `node packages/cli/dist/index.js skills --install --target claude`.
+
+- [github.com/Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)
+
 ---
 
 ## 📚 Learning Aid
